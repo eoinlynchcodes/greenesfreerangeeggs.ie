@@ -214,6 +214,11 @@ form{
 }
 
 .contactSection{
+  /* background-color: #F8F1E1; */
+  padding: 2rem 0rem;
+}
+
+.findusSection{
   background-color: #F8F1E1;
   padding: 2rem 0rem;
 }
@@ -293,11 +298,13 @@ footer{
 
   .recipeDiv{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
   }  
 
   .home-recipe-image-div{
-    max-width: 90%;
+    max-width: 50%;
     margin: 0 auto;
   }
 
