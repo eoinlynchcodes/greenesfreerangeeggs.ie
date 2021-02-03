@@ -88,6 +88,11 @@ nav a{
   color: #93aa3b;
 }
 
+.aboutContainer{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .centertext{
   margin: 0 auto;
   display: flex;
