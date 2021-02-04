@@ -287,8 +287,7 @@ footer{
 
 
 
-
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .sectionOne{
     display: flex;
     flex-direction: column;
