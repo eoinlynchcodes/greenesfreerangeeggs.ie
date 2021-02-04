@@ -44,6 +44,7 @@ ul,
 li,
 i {
   font-size: 1em;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 .balsamiqsans{
@@ -88,8 +89,31 @@ nav a{
   color: #93aa3b;
 }
 
+a{
+  text-decoration: none;
+}
+
 .aboutContainer{
   max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutDiv{
+  max-width: 45%;
+  padding: 2rem 2rem;
+}
+
+.aboutDiv img{
+  width: 100%;
+}
+
+.paraforabout{
+  padding: 1rem 0rem;
+}
+
+.centerThisOneDiv{
   margin: 0 auto;
 }
 
