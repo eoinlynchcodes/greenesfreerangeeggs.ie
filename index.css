@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 html {
   font-size: 16px; /* 16px * 62.5 = 10px = 1rem */
@@ -98,6 +100,7 @@ a{
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  padding: 5rem 0rem;
 }
 
 .aboutDiv{
@@ -107,6 +110,7 @@ a{
 
 .aboutDiv img{
   width: 100%;
+  border-radius: 24px;
 }
 
 .paraforabout{
@@ -122,6 +126,10 @@ a{
   display: flex;
   justify-content: center;
   padding: 1rem;
+}
+
+.centeraligntext{
+  text-align: center;
 }
 
 .logo{
@@ -182,7 +190,8 @@ a{
 }
 
 .home-recipe-image-div{
-  max-width: 33%;
+  max-width: 30%;
+  margin: 1rem auto;
 }
 
 .home-recipe-image-div:hover {
@@ -194,10 +203,43 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 5rem 0rem; 
+}
+
+.recipesSection{
+  background-color: #93aa3b;
+  padding: 2rem;
+  color: white;
+}
+
+.whitetext{
+  color: white;
 }
 
 .imageForRecipe{
   max-width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+
+}
+
+.divToGiveBorder{
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .eggImage{
@@ -247,6 +289,10 @@ form{
   padding: 2rem 0rem;
 }
 
+form{
+  padding: 3rem 0rem;
+}
+
 .findusSection{
   background-color: #F8F1E1;
   padding: 2rem 0rem;
@@ -265,9 +311,22 @@ footer{
   flex-direction: column;
 }
 
+iframe{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 1rem 1rem;
+}
+
+.hensSection{
+  /* background-color: #93aa3b; */
+  padding: 1rem 0rem;
+}
+
 .footerBox{
   display: flex;
   justify-content: space-evenly;
+  padding: 4rem 0rem;
 }
 
 .listItems{
@@ -278,6 +337,16 @@ footer{
 .contactUsText{
   max-width: 80%;
   margin: 2rem auto;
+}
+
+.sendButton{
+  background-color: #93aa3b;
+  border-radius: 12px;
+  border: 2px solid grey;
+  padding: 1rem .5rem;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
 }
 
 .footerimage{
@@ -338,6 +407,7 @@ footer{
 
   .imageForRecipe{
     max-width: 100%;
+    border-radius: 0px;
   }
 
   .eggImage{
