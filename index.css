@@ -187,6 +187,8 @@ a{
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem 0rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .home-recipe-image-div{
@@ -243,8 +245,12 @@ textarea{
 }
 
 .eggImage{
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
+}
+
+img{
+  border-radius: 12px;
 }
 
 .eggtext{
@@ -266,6 +272,25 @@ textarea{
 
 .hometext{
   width: 70%;
+}
+
+.blackbackground{
+  background-color: black;
+  color: white;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section-at-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section-at-bottom img{
+  max-width: 25%;
+  border-radius: 0px;
+  height: auto;
 }
 
 .board{
@@ -318,9 +343,17 @@ iframe{
   padding: 1rem 1rem;
 }
 
+.eggsandveg{
+  width: 50%;
+}
+
+.instore-display-image{
+  max-width: 40%;
+}
+
 .hensSection{
   /* background-color: #93aa3b; */
-  padding: 1rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 
 .footerBox{
