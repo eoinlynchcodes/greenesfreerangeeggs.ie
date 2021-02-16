@@ -404,6 +404,19 @@ iframe{
     max-width: 100%;
   }
 
+  .instore-display-image{
+    max-width: 90%;
+  }
+
+  .eggsandveg{
+    width: 90%;
+  }
+
+  #invert{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .imagesize{
     max-width: 100%;
   }
@@ -443,7 +456,15 @@ iframe{
   .home-recipe-image-div{
     max-width: 40%;
     padding: 0rem 1rem;
- 
+  }
+
+  .image-section-at-bottom{
+    flex-wrap: wrap;
+  }
+
+  .image-section-at-bottom img{
+    max-width: 50%;
+    height: auto;
   }
 
   .imageForRecipe{
