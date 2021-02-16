@@ -393,21 +393,29 @@ iframe{
     max-width: 80%;
   }
 
+  .aboutDiv{
+    max-width: 100%;
+    padding: 2rem 2rem;
+  }
+
+
   .recipeDiv{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    justify-content: space-between;
   }  
 
   .home-recipe-image-div{
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 40%;
+    padding: 0rem 1rem;
+ 
   }
 
   .imageForRecipe{
     max-width: 100%;
-    border-radius: 0px;
+    border-radius: 12px;
   }
 
   .eggImage{
